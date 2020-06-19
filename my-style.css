@@ -4,7 +4,7 @@ body {
     margin: 0;
   }
 
-  img{
+  .app-img{
     border: 5px ridge rgb(240, 238, 238);
     margin-top: .5em;
     padding: .5em;
@@ -62,3 +62,19 @@ body {
     text-align: center;
     font-weight: bold;
   }
+
+  .fa {
+    margin: 3em;
+    width: 5em;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+
+
+  
