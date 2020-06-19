@@ -1,11 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Sylvia</title>
+<title>Sylvia D Garcia-Chavez</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="my-style.css">
+
 </head>
 <body>
-  <h1>Hola amiguitos!</h1>
-  <footer>gpuma 2017</footer>
+
+<div class="header">
+  <div class="my-name">SYLVIA D. GARC&Iacute;A-CH&Aacute;VEZ</div>
+  <div class="w3-indigo menu-container">
+    <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Work')">Work</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'About')">About</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Contact')">Contact</button>
+  </div>
+</div>
+<div id="Work" name="menu-option" class="w3-container w3-animate-top center" style="display:none">
+    <p>Featured applications I have developed as assigned projects and or challenges.</p>
+    <div class="card-container">
+      
+      <div class="card">
+          <div class="card-info">
+            <a target="_blank" href="https://sgarciachavez.github.io/WhereInTheWorld/">
+              <img src="img/where-in-the-world.jpeg" alt="Where in the World App" width="100%"/></a>
+              <h4 class="app-title">Where in the World</h4>
+              <p>This application allows the user to search a specific country and view detailed information about the country. </p> 
+              <p><span class="app-title">Technologies:</span> <br/>
+                React, JavaScript ES6, CSS</p>
+            
+            <p>REST APIs provided by: <a href="https://restcountries.eu/" target="_blank">https://restcountries.eu/</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-info">
+              <a target="_blank" href="https://sgarciachavez.github.io/React_MyReads/">
+                <img src="img/my-reads.jpeg" alt="My Reads" width="100%"/></a>
+                <h4 class="app-title">My Reads</h4>
+                <p>This application is a bookshelf app that allows the user to select and categorize books of their choice into 
+                    4 different categories. The app also provides a search cabability to search for more books and add them to your categories.</p> 
+                    <p><span class="app-title">Technologies:</span> <br/>
+                        React, JavaScript ES6, CSS</p>
+                <p>REST APIs provided by: <a href="https://reactnd-books-api.udacity.com" target="_blank">https://reactnd-books-api.udacity.com</a></p>
+              </div>
+        </div>
+
+        <div class="card">
+          <div class="card-info">
+              <a target="_blank" href="https://sgarciachavez.github.io/WouldYouRather/">
+                <img src="img/would-you-rather.jpeg" alt="Would you Rather" width="100%"/></a>
+                <h4 class="app-title">Would You Rather</h4>
+                <p>This application is a survey building app.  A user can login or create a new user.  Once
+                    logged in the user can answer questions or creat new questions.  The user can 
+                also "View Poll" and compare her/his answers to other users.  A Leader Board is also provided.  </p> 
+                <p><span class="app-title">Technologies:</span> <br/>
+                    React, Redux, JavaScript ES6, CSS</p>
+              </div>
+        </div>
+        <div class="card">
+          <div class="card-info">
+              <a target="_blank" href="https://sgarciachavez.github.io/usdaFoodApp/">
+                <img src="img/usda-food-app.jpeg" alt="USDA Food App" width="100%"/></a>
+                <h4 class="app-title">USDA Food App</h4>
+                <p>A food application which a user can search for a specific food 
+                    and view results as provided by USDA. By selecting a food item a user
+                will be able to view  nutrients of the food. A user can also add food items to her/his list of favorites.</p> 
+                <p><span class="app-title">Technologies:</span> <br/>
+                    Angular, Ionic, TypeScript, CSS</p>
+                <p>REST APIs provided by: <a href="http://ndb.nal.usda.gov/ndb/doc/index" target="_blank">http://ndb.nal.usda.gov/ndb/doc/index</a></p>
+              </div>
+        </div>
+        <div class="card">
+          <div class="card-info">
+              <a target="_blank" href="https://sgarciachavez.github.io/MemoryGame/">
+                <img src="img/memory-game.jpeg" alt="Memory Game" width="100%"/></a>
+                <h4 class="app-title">Memory Game</h4>
+                <p>Test your memory with this memory game application.  The application allows you to chooce the deck of your choice:
+                    1. Emoji 2. Fruit 3. Christmas 4. Social media </p> 
+                    <p><span class="app-title">Technologies:</span> <br/>
+                        Javascript ES6, HTML, CSS (Animation)</p>
+                
+              </div>
+        </div>
+        <div class="card">
+          <div class="card-info">
+              <a target="_blank" href="">
+                <img src="img/frogger.jpeg" alt="Arcade Game Frogger" width="100%"/></a>
+                <h4 class="app-title">Arcade Game: Frogger</h4>
+                <p>Classic Arcade game, Frogger.  Get the avatar across the road without being hit by a bug!</p> 
+                <p><span class="app-title">Technologies:</span> <br/>
+                    Javascript ES6, HTML, CSS (Animation)</p>
+              </div>
+        </div>
+    </div>
+  </div>
+
+  <div id="About" name="menu-option" class="w3-container w3-animate-top my-container" style="display:none">
+    
+    <p>Hola! I’m Sylvia, a Software Developer with strengths in Front-End Web Development.  
+        Throughout my career I have participated in both large and small development teams.  
+        I’ve built many user interfaces applying different skills such as Javascript, HTML, 
+        CSS, Java, JavaServer Faces, Domino Lotus Notes and more recently React, React Native 
+        and Wordpress.  My passion drives me to seek a “Visual Reward” thus my interest in UIs.  
+  </p>
+  <p>I recently completed 3 Nanodegree Programs from <a href="https://www.udacity.com/" target="_blank">Udacity.com</a> in 2019</p>
+  <p>&raquo; Front-End Web Developer &laquo; <br/>&raquo; React &laquo;<br/> &raquo; Java &laquo;</p>
+  <p>My career has also presented many opportunities for acquiring many other skills along the way, 
+      such as SQL, PHP, Linux and different IDEs.</p>
+  </div>
+
+  <div id="Contact" name="menu-option" class="w3-container w3-animate-top" style="display:none">
+      
+    <p>Best way to contact me is by email.</p>
+    <p><a href="mailto:sgarciachavez@gmail.com">sgarciachavez@gmail.com</a></p>
+  </div>
+
+<script>
+function openLink(evt, animName) {
+  var i, x, tablinks;
+  x = document.getElementsByName("menu-option");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-light-grey", "");
+  }
+  document.getElementById(animName).style.display = "block";
+  evt.currentTarget.className += " w3-light-grey";
+}
+</script>
+
+
 </body>
 </html>
